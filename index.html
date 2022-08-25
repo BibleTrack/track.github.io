@@ -13,44 +13,48 @@
 </head>
 
 <body>
-    <div class="d-flex h-100 text-center text-white ">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <header class="mb-auto">
-                <div>
-                    <nav class="nav nav-masthead justify-content-center float-md-start my-2">
-                        <a href="views/pageOne.html" class="nav-link ">Get Started!</a>
-                    </nav>
-                    <nav class="nav nav-masthead justify-content-center float-md-end my-2">
-                        <a href="views/contact.html" class="nav-link ">Contact</a>
-                    </nav>
+    <div class="hero-image">
+        <nav class="navbar navbar-expand-md navbar-dark pt-4">
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="views/pageOne.html">Get Started</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="views/contact.html">Contact</a>
+                    </div>
                 </div>
-            </header>
-            <main class="px-3">
-                <h1 class="mb-3">Have you ever asked yourself these questions?</h1>
-                <div>
-                    <a href="views/pageOne.html" class="btn my-3">What is the meaning of life?</a>
-                </div>
-                <div>
-                    <a href="views/pageTwo.html" class="btn my-3">What is the purpose in life?</a>
-                </div>
-                <div>
-                    <a href="views/pageThr.html" class="btn my-3">Is there life after life?</a>
-                </div>
-                <div>
-                    <a href="views/pageFou.html" class="btn my-3">What is going to happen after I die?</a>
-                </div>
-                <div>
-                    <a href="views/pageFiv.html" class="btn my-3">What is my reason for living?</a>
-                </div>
-            </main>
-
-            <footer class="mt-auto">
-                <p> 2022 </p>
-            </footer>
+            </div>
+        </nav>
+        <div class="container-fluid text-center text-white main-text">
+            <div class="row">
+                <h1 class="col home-title">Have you ever asked yourself these questions?</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="views/pageOne.html" class="main-btns">What is the meaning of life?</a>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="views/pageTwo.html" class="main-btns">What is the purpose in life?</a>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="views/pageThr.html" class="main-btns">Is there life after life?</a>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="views/pageFou.html" class="main-btns">What is going to happen after I die?</a>
+            </div>
+            <div class="row d-flex justify-content-center mb-5">
+                <a href="views/pageFiv.html" class="main-btns">What is my reason for living?</a>
+            </div>
         </div>
     </div>
 
-    <script src="app.js" async defer></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
