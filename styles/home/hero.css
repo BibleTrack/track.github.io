@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 900px) {
     .hero-image {
         height: fit-content;
         padding: 10% 0px 10% 0px;
