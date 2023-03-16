@@ -73,3 +73,10 @@
         display: flex;
     }
 }
+
+@media (max-height: 500px) {
+    .contact-image {
+        height: fit-content;
+        padding: 10% 0px 10% 0px;
+    }
+}
