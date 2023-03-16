@@ -54,7 +54,7 @@
     letter-spacing: 1.4px;
     margin-top: 50px;
     padding: 10px 20px 10px 20px;
-    transition: all .5s;
+    transition: font-size .5s, color .5s, border .5s, padding .5s;
 }
 
 .change-page-button:hover {
